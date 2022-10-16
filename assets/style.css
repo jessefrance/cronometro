@@ -1,7 +1,9 @@
 /* Variaveis */
 /* Mixin's */
+
+/* CORPO */
 body {
-  background: #4b0082;
+  background: black;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   height: 100%;
 }
@@ -23,14 +25,13 @@ h1, h2, h3 {
 #seconds, #tens {
   font-size: 2em;
 }
-  
 button {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 50px;
   -khtml-border-radius: 5px;
-  background: #4b0082;
-  color: #fff;
+  background: white;
+  color: black;
   border: solid 1px #fff;
   text-decoration: none;
   cursor: pointer;
@@ -49,4 +50,3 @@ button:hover {
   border: solid 1px #fff;
   color: #000000;
 }
-
